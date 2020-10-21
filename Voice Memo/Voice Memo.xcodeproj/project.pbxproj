@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453749F7253F463000BCE391 /* RecordStartIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453749F6253F463000BCE391 /* RecordStartIcon.swift */; };
+		453749FA253F46B100BCE391 /* RecordStopIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453749F9253F46B100BCE391 /* RecordStopIcon.swift */; };
+		454376062540936600DABC06 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454376052540936600DABC06 /* Date.swift */; };
+		454B4A82253E44A200EDEB70 /* ElsaCore in Frameworks */ = {isa = PBXBuildFile; productRef = 454B4A81253E44A200EDEB70 /* ElsaCore */; };
+		45601174253E14CB0020AF44 /* Voice_MemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45601173253E14CB0020AF44 /* Voice_MemoApp.swift */; };
+		45601176253E14CB0020AF44 /* MemoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45601175253E14CB0020AF44 /* MemoList.swift */; };
+		45601178253E14CD0020AF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45601177253E14CD0020AF44 /* Assets.xcassets */; };
+		4560117B253E14CD0020AF44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4560117A253E14CD0020AF44 /* Preview Assets.xcassets */; };
+		45601186253E19290020AF44 /* MemoPreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45601185253E19290020AF44 /* MemoPreviewRow.swift */; };
+		45601189253E195F0020AF44 /* PreviewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45601188253E195F0020AF44 /* PreviewModifier.swift */; };
+		4560118C253E1AEA0020AF44 /* MemoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560118B253E1AEA0020AF44 /* MemoDetail.swift */; };
+		45B6372E253F5D37008267E0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6372D253F5D37008267E0 /* String.swift */; };
+		45B63732253F68FD008267E0 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B63731253F68FD008267E0 /* MemoData.swift */; };
+		45B63736253F6E6E008267E0 /* PlayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B63735253F6E6E008267E0 /* PlayIcon.swift */; };
+		45D11220253F3FCA000648D3 /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 45D1121F253F3FCA000648D3 /* SampleCode.xcconfig */; };
+		45D11223253F41EE000648D3 /* VoiceRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D11222253F41EE000648D3 /* VoiceRecorderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		453749F6253F463000BCE391 /* RecordStartIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordStartIcon.swift; sourceTree = "<group>"; };
+		453749F9253F46B100BCE391 /* RecordStopIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordStopIcon.swift; sourceTree = "<group>"; };
+		454376052540936600DABC06 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Date.swift; path = "Voice Memo/Helpers/Date.swift"; sourceTree = SOURCE_ROOT; };
+		45601170253E14CB0020AF44 /* Voice Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Memo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45601173253E14CB0020AF44 /* Voice_MemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_MemoApp.swift; sourceTree = "<group>"; };
+		45601175253E14CB0020AF44 /* MemoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoList.swift; sourceTree = "<group>"; };
+		45601177253E14CD0020AF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4560117A253E14CD0020AF44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4560117C253E14CD0020AF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45601183253E15710020AF44 /* ElsaCore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ElsaCore; sourceTree = "<group>"; };
+		45601185253E19290020AF44 /* MemoPreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPreviewRow.swift; sourceTree = "<group>"; };
+		45601188253E195F0020AF44 /* PreviewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewModifier.swift; sourceTree = "<group>"; };
+		4560118B253E1AEA0020AF44 /* MemoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetail.swift; sourceTree = "<group>"; };
+		45B6372D253F5D37008267E0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		45B63731253F68FD008267E0 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
+		45B63735253F6E6E008267E0 /* PlayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayIcon.swift; sourceTree = "<group>"; };
+		45D1121F253F3FCA000648D3 /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
+		45D11222253F41EE000648D3 /* VoiceRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4560116D253E14CB0020AF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454B4A82253E44A200EDEB70 /* ElsaCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454B4A80253E44A200EDEB70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		455361C2253F71FA00C68551 /* Voice Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				45D11222253F41EE000648D3 /* VoiceRecorderView.swift */,
+			);
+			path = "Voice Recorder";
+			sourceTree = "<group>";
+		};
+		45601167253E14CB0020AF44 = {
+			isa = PBXGroup;
+			children = (
+				45601183253E15710020AF44 /* ElsaCore */,
+				45601172253E14CB0020AF44 /* Voice Memo */,
+				45601171253E14CB0020AF44 /* Products */,
+				454B4A80253E44A200EDEB70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45601171253E14CB0020AF44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45601170253E14CB0020AF44 /* Voice Memo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45601172253E14CB0020AF44 /* Voice Memo */ = {
+			isa = PBXGroup;
+			children = (
+				45601173253E14CB0020AF44 /* Voice_MemoApp.swift */,
+				455361C2253F71FA00C68551 /* Voice Recorder */,
+				45B6373A253F717E008267E0 /* Memo List */,
+				45B6373C253F7197008267E0 /* Memo Details */,
+				45B6373D253F71AA008267E0 /* Helpers */,
+				45B63738253F716B008267E0 /* Icons */,
+				45601177253E14CD0020AF44 /* Assets.xcassets */,
+				4560117C253E14CD0020AF44 /* Info.plist */,
+				45D1121F253F3FCA000648D3 /* SampleCode.xcconfig */,
+				45601179253E14CD0020AF44 /* Preview Content */,
+			);
+			path = "Voice Memo";
+			sourceTree = "<group>";
+		};
+		45601179253E14CD0020AF44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4560117A253E14CD0020AF44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45B63738253F716B008267E0 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				45B63735253F6E6E008267E0 /* PlayIcon.swift */,
+				453749F6253F463000BCE391 /* RecordStartIcon.swift */,
+				453749F9253F46B100BCE391 /* RecordStopIcon.swift */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		45B6373A253F717E008267E0 /* Memo List */ = {
+			isa = PBXGroup;
+			children = (
+				45B63731253F68FD008267E0 /* MemoData.swift */,
+				45601175253E14CB0020AF44 /* MemoList.swift */,
+				45601185253E19290020AF44 /* MemoPreviewRow.swift */,
+			);
+			path = "Memo List";
+			sourceTree = "<group>";
+		};
+		45B6373C253F7197008267E0 /* Memo Details */ = {
+			isa = PBXGroup;
+			children = (
+				4560118B253E1AEA0020AF44 /* MemoDetail.swift */,
+				454376052540936600DABC06 /* Date.swift */,
+			);
+			path = "Memo Details";
+			sourceTree = "<group>";
+		};
+		45B6373D253F71AA008267E0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				45B6372D253F5D37008267E0 /* String.swift */,
+				45601188253E195F0020AF44 /* PreviewModifier.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4560116F253E14CB0020AF44 /* Voice Memo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4560117F253E14CD0020AF44 /* Build configuration list for PBXNativeTarget "Voice Memo" */;
+			buildPhases = (
+				4560116C253E14CB0020AF44 /* Sources */,
+				4560116D253E14CB0020AF44 /* Frameworks */,
+				4560116E253E14CB0020AF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voice Memo";
+			packageProductDependencies = (
+				454B4A81253E44A200EDEB70 /* ElsaCore */,
+			);
+			productName = "Voice Memo";
+			productReference = 45601170253E14CB0020AF44 /* Voice Memo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45601168253E14CB0020AF44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					4560116F253E14CB0020AF44 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 4560116B253E14CB0020AF44 /* Build configuration list for PBXProject "Voice Memo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45601167253E14CB0020AF44;
+			productRefGroup = 45601171253E14CB0020AF44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4560116F253E14CB0020AF44 /* Voice Memo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4560116E253E14CB0020AF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4560117B253E14CD0020AF44 /* Preview Assets.xcassets in Resources */,
+				45D11220253F3FCA000648D3 /* SampleCode.xcconfig in Resources */,
+				45601178253E14CD0020AF44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4560116C253E14CB0020AF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45601176253E14CB0020AF44 /* MemoList.swift in Sources */,
+				45601189253E195F0020AF44 /* PreviewModifier.swift in Sources */,
+				45B6372E253F5D37008267E0 /* String.swift in Sources */,
+				4560118C253E1AEA0020AF44 /* MemoDetail.swift in Sources */,
+				45B63736253F6E6E008267E0 /* PlayIcon.swift in Sources */,
+				45B63732253F68FD008267E0 /* MemoData.swift in Sources */,
+				45D11223253F41EE000648D3 /* VoiceRecorderView.swift in Sources */,
+				454376062540936600DABC06 /* Date.swift in Sources */,
+				453749F7253F463000BCE391 /* RecordStartIcon.swift in Sources */,
+				453749FA253F46B100BCE391 /* RecordStopIcon.swift in Sources */,
+				45601174253E14CB0020AF44 /* Voice_MemoApp.swift in Sources */,
+				45601186253E19290020AF44 /* MemoPreviewRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4560117D253E14CD0020AF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4560117E253E14CD0020AF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45601180253E14CD0020AF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D1121F253F3FCA000648D3 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Voice Memo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4W27HF3ZS4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Voice Memo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.challenge.Elsa.Voice-Memo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45601181253E14CD0020AF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D1121F253F3FCA000648D3 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Voice Memo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4W27HF3ZS4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Voice Memo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.challenge.Elsa.Voice-Memo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4560116B253E14CB0020AF44 /* Build configuration list for PBXProject "Voice Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4560117D253E14CD0020AF44 /* Debug */,
+				4560117E253E14CD0020AF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4560117F253E14CD0020AF44 /* Build configuration list for PBXNativeTarget "Voice Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45601180253E14CD0020AF44 /* Debug */,
+				45601181253E14CD0020AF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		454B4A81253E44A200EDEB70 /* ElsaCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ElsaCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 45601168253E14CB0020AF44 /* Project object */;
+}

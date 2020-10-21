@@ -1,1 +1,0 @@
-# elsa-programming-challenge
